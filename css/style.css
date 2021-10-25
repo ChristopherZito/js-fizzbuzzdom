@@ -1,0 +1,45 @@
+
+body {
+    background-color: #083b4c;    
+}
+
+#container {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+#container h1{
+    color: #fff;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+
+#sub-cont {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.number{
+    background-color: #1389b2;
+    height: 50px;
+    width: calc(95% / 7);
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fizz{
+    background-color: #0bd6a1;
+}
+
+.buzz{
+    background-color: #ffd166;
+}
+
+.both-f-b{
+    background-color: #f0466f;
+}
